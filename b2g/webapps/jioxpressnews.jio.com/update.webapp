@@ -1,0 +1,152 @@
+ {
+    "version": "1.0.1.1",
+    "name": "JioXpressNews",
+    "description": "Latest News",
+	"theme": "#0000A8",
+    "subtitle": "News anytime, anywhere.",
+    "launch_path": "/index.html",
+    "icons": {
+        "84": "/assets/ic_JioXpressNews_84.png",
+        "56": "/assets/ic_JioXpressNews_56.png"
+    },
+    "developer": {
+        "name": "Jio Media Team",
+        "url": "https://www.jio.com/"
+    },
+    "activities": {
+        "JioXpressNews": {
+            "href": "./index.html",
+            "disposition": "inline",
+            "filters": {
+                "type": "text"
+            }
+        }
+    },
+    "locales": {
+        "en-US": {
+            "name":"JioXpressNews",
+            "description": ""
+        },
+        "hi-IN": {
+            "name":"जिओएक्सप्रेसन्यूज़",
+            "description": ""
+        },
+		"mr-IN": {
+            "name":"जिओएक्सप्रेसन्यूज",
+            "description": ""
+        },
+		"pa-IN": {
+            "name":"ਜੀਓਐਕਸਪ੍ਰੈਸਨਿਊਜ਼",
+            "description": ""
+        },
+		"gu-IN": {
+            "name":"જીઓએક્સપ્રેસન્યુઝ",
+            "description": ""
+        },
+		"kn-IN": {
+            "name":"ಜಿಯೋ‌ಎಕ್ಸ್‌ಪ್ರೆಸ್‌ನ್ಯೂಸ್",
+            "description": ""
+        },
+		"ta-IN": {
+            "name":"ஜியோஎக்ஸ்ப்ரெஸ்நியூஸ்",
+            "description": ""
+        },
+		"te-IN": {
+            "name":"జియోఎక్స్‌ప్రెస్‌న్యూస్",
+            "description": ""
+        },
+		"ml-IN": {
+            "name":"ജിഒഎക്സ്പ്രെസ്സ്ന്യൂസ്‌",
+            "description": ""
+        },
+		"bn-IN": {
+            "name":"জিওএক্সপ্রেসনিউজ",
+            "description": ""
+        },
+		"as-IN": {
+            "name":"জিঅ’এক্সপ্ৰেছনিউজ",
+            "description": ""
+        },
+		"or-IN": {
+            "name":"ଜିଓଏକ୍ସପ୍ରେସ୍‌ନିୟୁଜ୍",
+            "description": ""
+        },
+        "doi-IN": {
+            "name":"जिओएक्सप्रेसन्यूज",
+            "description": ""
+        },
+        "kok-IN": {
+            "name":"जिओएक्सप्रेसन्यूज़",
+            "description": ""
+        },
+        "sat-IN": {
+            "name":"ᱡᱤᱭᱳᱮᱠᱥᱯᱨᱮᱥᱱᱤᱭᱩᱡ",
+            "description": ""
+        },
+        "sa-IN": {
+            "name":"जिओएक्सप्रेसन्यूज़",
+            "description": ""
+        },
+        "sd-IN": {
+            "name":"जीवुऐक्सप्रेसन्यूज़",
+            "description": ""
+        },
+        "mai-IN": {
+            "name":"जिओएक्सप्रेसन्यूज़",
+            "description": ""
+        },
+        "mni-IN": {
+            "name":"জিওএক্সপ্রেসন্যুজ",
+            "description": ""
+        },
+        "und-bod": {
+            "name":"जिअ'एक्सप्रेसनिउस",
+            "description": ""
+        },
+        "ne-IN": {
+            "name":"जियोअक्सप्रेसन्युज",
+            "description": ""
+        },
+        "ur-IN": {
+            "name":"جیوایکسپریسنیوز",
+            "description": ""
+        },
+        "ks-IN": {
+            "name":"جیوایکسپریسنیوز",
+            "description": ""
+        }			
+    },
+    "default_locale": "en-US",
+    "fullscreen": true,
+    "type": "privileged",
+	"origin": "app://jioxpressnews.jio.com",
+    "permissions": {
+        "themeable": {
+            "name": "themeable"
+        },
+        "systemXHR": {
+            "description": "This permission is require to call web api"
+        },
+        "device-storage:apps": {
+            "name": "device-storage",
+            "access": "readwrite"
+        },
+        "device-storage:sdcard": {
+            "name": "device-storage:sdcard",
+            "access": "readwrite"
+        },
+        "persistent-storage": {},
+        "webapps-manage": {},
+
+        "cross-domain-content": "*",
+        "browser": {},
+        "push": {
+            "description": "To receive notifications"
+        },
+        "desktop-notification": {}
+
+    },
+    "messages": [{
+        "serviceworker-notification": "/index.html"
+    }]
+ }

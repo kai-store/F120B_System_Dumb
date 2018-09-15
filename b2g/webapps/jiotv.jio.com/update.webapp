@@ -1,0 +1,143 @@
+{
+	"name": "JioTV",
+	"version": "1.3.2",
+	"locales": {
+		"en-US": {
+			"name": "JioTV",
+			"description": "JioTV provides 400+ Live TV channels and 7 days of Catch Up. It has useful features like hotkeys support for accessing various screens of the app and channels, marking channels and programs as favourites, search for channels, current, past and future programs.",
+			"subtitle": "Instant access to TV programs on the go"			
+		},
+		"hi-IN": {
+			"name": "जिओटीवी"
+		},
+		"as-IN": {
+			"name": "জিঅ’টিভী"
+		},
+		"bn-IN": {
+			"name": "জিওটিভি"
+		},
+		"gu-IN": {
+			"name": "જીઓટીવી"
+		},
+		"kn-IN": {
+			"name": "ಜಿಯೋಟಿವಿ"
+		},
+		"ks-IN": {
+			"name": "جیوٹی وی"
+		},
+		"ml-IN": {
+			"name": "ജിഒടിവി"
+		},
+		"mr-IN": {
+			"name": "जिओटीव्ही"
+		},
+		"ne-IN": {
+			"name": "जियोटिभी"
+		},
+		"or-IN": {
+			"name": "ଜିଓଟିଭି"
+		},
+		"pa-IN": {
+			"name": "ਜੀਓਟੀਵੀ"
+		},
+		"sa-IN": {
+			"name": "जिओटीवी"
+		},
+		"sd-IN": {
+			"name": "जीवुटीवी"
+		},
+		"ta-IN": {
+			"name": "ஜியோடிவி"
+		},
+		"te-IN": {
+			"name": "జియోటివి"
+		},
+		"und-bod": {
+			"name": "जिअ'टिभि"
+		},
+		"mai-IN": {
+			"name": "जिओटीवी"
+		},
+		"kok-IN": {
+			"name": "जिओटीवी"
+		},
+		"mni-IN": {
+			"name": "জিওটিভি"
+		},
+		"doi-IN": {
+			"name": "जिओटीवी"
+		},
+		"ur-IN": {
+			"name": "جیوٹیوی"
+		},
+		"sat-IN": {
+			"name": "ᱡᱤᱭᱳᱴᱤ.ᱣᱤ"
+		}
+	},
+	"developer": {
+		"name": "Jio",
+		"url": "http://www.jio.com"
+	},
+	"default_locale": "en-US",
+	"description": "JioTV provides 400+ Live TV channels and 7 days of Catch Up. It has useful features like hotkeys support for accessing various screens of the app and channels, marking channels and programs as favourites, search for channels, current, past and future programs.",
+	"launch_path": "/dist/index.html",
+	"icons": {
+		"56": "/resources/icon56x56.png",
+		"84": "/resources/icon84x84.png"
+	},
+	"type": "privileged",
+	"origin": "app://jiotv.jio.com",
+	"display": "JioTV",
+	"subtitle": "Instant access to TV programs on the go",
+	"theme": "#e62431",
+	"permissions": {
+		"device-storage:sdcard": {
+			"description": "To access files from the SD card",
+			"access": "readwrite"
+		},
+		"themeable": {
+			"name": "themeable"
+		},
+		"systemXHR": {
+			"description": "This permission is require to call web api"
+		},
+		"device-storage:apps": {
+			"name": "device-storage",
+			"access": "readwrite"
+		},
+		"persistent-storage": {},
+		"webapps-manage": {},
+		"audio-capture": {},
+		"audio-channel-content": {},
+		"browser": {},
+		"volumemanager": {},
+		"geolocation": {
+			"description": "Obtain geolocation from the device GPS."
+		},
+		"udp-socket": {
+			"description": "Used for ssdp implementation."
+		},
+		"tcp-socket": {
+			"description": "Create TCP sockets and communicate over them."
+		},
+		"donglemanager": {
+			"description": "Used for the local IP address."
+		}
+	},
+	"datastores-access": {
+		"jio_service_store": {
+			"access": "readonly",
+			"description": "Jio Service Store"
+		}
+	},
+	"fullscreen": true,
+	"activities": {
+		"JioTV": {
+			"href": "/dist/index.html",
+			"disposition": "inline",
+			"filters": {
+				"type": "video"
+			}
+		}
+	}
+}

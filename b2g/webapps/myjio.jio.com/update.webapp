@@ -1,0 +1,141 @@
+{
+  "name": "MyJio",
+  "description": "Get MyJio app to subscribe to exciting Jio offers. Recharge your Jio number, view real time balance, link & manage multiple accounts and much more!",
+  "display":"MyJio",
+  "subtitle":"Gateway to Digital Life",
+  "theme":"#51b7c1",
+  "launch_path": "/index.html",
+  "origin": "app://myjio.jio.com",
+  "icons": {
+    "56": "/icons/MyJio-56X56.png",
+    "84": "/icons/MyJio-84X84.png"
+  },
+  "developer": {
+    "name": "Jio",
+    "url": "http://www.jio.com"
+  },
+  "activities": {
+    "MyJio": {
+      "href": "/index.html",
+      "disposition": "window",      
+      "returnValue": true,
+      "filters": {
+        "type": "text"
+      }
+    }
+  },
+  "cachingJio":{
+    "shortCaching": false,
+    "longCaching": false    
+  },
+  
+  "redirects": [
+    {"from": "https://rtss-prod.jioconnect.com/MappServer3/billDeskPaymentB2B",
+     "to": "/Redirect.html"}
+  ],
+  "version":"1.1.1.2",
+  "release":"beta",
+  "type": "privileged",
+  "datastores-access":{
+        "jio_service_store":{
+        "readonly": false,
+          "description":"Jio Service store"
+      }
+    },
+  "permissions": {
+    "persistent-storage":{},
+    "csp":"default-src *; script-src 'self'; object-src 'none'; style-src 'self' 'unsafe-inline'" ,  
+     
+  "contacts": {
+      "access": "readwrite",
+      "description": "Required for contact viewer app"
+    },
+    "serviceworker": {},
+    "push": {"description": "To receive notifications"},
+    "desktop-notification": {},
+    "browser": { },  
+    "device-storage:music": { "access": "readonly" },
+    "device-storage:videos": { "access": "readonly" },
+    "device-storage:sdcard": { "access": "readwrite" }, 
+    "systemXHR": {},
+    "audio-capture": {},
+    "telephony": {},
+    "sms": {},
+    "webapps-manage": {},
+    "device-storage:apps": {"access": "readwrite"},
+    "themeble":{} 
+  },
+  "messages":[
+   {"serviceworker-notification":"/index.html"}
+  ],
+   "fullscreen": false,
+   "default_locale": "en-US",
+   "locales": {
+    "en-US": {
+      "name": "MyJio"
+    },
+    "hi-IN": {
+      "name": "मायजिओ"
+    },
+    "as-IN": {
+       "name": "মাইজিঅ’"
+    },
+    "bn-IN": {
+       "name": "মাইজিও"
+    },
+    "gu-IN": {
+      "name": "માયજીઓ"
+    },
+    "kn-IN": {
+       "name": "ಮೈಜಿಯೋ"
+    },
+    "ks-IN": {
+       "name": "مائےجیو"
+    },
+    "ml-IN": {
+       "name": "മൈജിഒ"
+    },
+    "mr-IN": {
+       "name": "मायजिओ"
+    },
+    "ne-IN": {
+       "name": "माइजियो"
+    },
+    "or-IN": {
+       "name": "ମାଇଜିଓ"
+    },
+    "pa-IN": {
+       "name": "ਮਾਇਜੀਓ"
+    },
+    "sa-IN": {
+       "name": "मायजिओ"
+    },
+    "sd-IN": {
+       "name": "माईजीवु"
+    },
+    "ta-IN": {
+       "name": "மைஜியோ"
+    },
+    "te-IN": {
+       "name": "మైజియో"
+    },
+    "und-bod": {
+       "name": "मायजिअ'"
+    },
+    "mai-IN": {
+       "name": "मायजिओ"
+    },
+     "kok-IN": {
+       "name": "मायजिओ"
+    },
+    "mni-IN": {
+        "name": "মায়জিও"
+    },
+    "doi-IN": {
+        "name": "मायजिओ"
+    },
+    "ur-IN": {
+       "name": "میراجیو"
+    }
+  }
+}

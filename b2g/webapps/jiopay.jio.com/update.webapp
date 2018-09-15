@@ -1,0 +1,168 @@
+{
+  "name": "JioPay",
+  "description": "Use JioPay for payments",
+  "display":"JioPay",
+  "subtitle":"Payment made easy",
+  "theme":"#6C32CC",
+  "launch_path": "/index.html",
+  "role": "system",
+  "enabled": "false",
+  "origin": "app://jiopay.jio.com",
+  "icons": {
+    "56": "/icons/JioPay-56X56.png",
+    "84": "/icons/JioPay-84X84.png"
+  },
+  "developer": {
+    "name": "Jio",
+    "url": "http://www.jio.com"
+  },
+  "activities": {
+    "JioPay": {
+      "href": "/index.html",
+      "disposition": "window",      
+      "returnValue": true,
+      "filters": {
+        "type": "text"
+      }
+    }
+  },
+  "cachingJio":{
+    "shortCaching": false,
+    "longCaching": false
+  },
+  
+  "redirects": [
+    {"from": "https://rtss-prod.jioconnect.com/MappServer3/billDeskPaymentB2B",
+     "to": "/Redirect.html"}
+  ],
+  "version":"1.0.0",
+  "release":"beta",
+  "type": "privileged",
+  "datastores-access":{
+        "jio_service_store":{
+        "readonly": false,
+          "description":"Jio Service store"
+      }
+    },
+  "permissions": {
+    "persistent-storage":{},
+    "csp":"default-src *; script-src 'self'; object-src 'none'; style-src 'self' 'unsafe-inline'" ,  
+     
+  "contacts": {
+      "access": "readwrite",
+      "description": "Required for contact viewer app"
+    },
+    "serviceworker": {},
+    "push": {"description": "To receive notifications"},
+    "desktop-notification": {},
+    "browser": { },  
+    "device-storage:music": { "access": "readonly" },
+    "device-storage:videos": { "access": "readonly" },
+    "device-storage:sdcard": { "access": "readwrite" }, 
+    "systemXHR": {},
+    "audio-capture": {},
+    "telephony": {},
+    "sms": {},
+    "webapps-manage": {},
+    "device-storage:apps": {"access": "readwrite"},
+    "themeble":{} 
+  },
+  "messages":[
+   {"serviceworker-notification":"/index.html"}
+  ],
+   "fullscreen": false,
+   "default_locale": "en-US",
+   "locales": {
+    "en-US": {
+      "name": "JioPay"
+    },
+    "hi-IN": {
+      "name": "जिओपे",
+      "description": "Hindi layout"
+    },
+    "as-IN": {
+       "name": "জিঅ’পে",
+      "description": "Assamese layout"
+    },
+    "bn-IN": {
+       "name": "জিওপে",
+      "description": "Bengali layout"
+    },
+    "gu-IN": {
+      "name": "જીઓપે",
+      "description": "Gujurati layout"
+    },
+    "kn-IN": {
+       "name": "ಜಿಯೋಪೇ",
+      "description": "Kannada layout"
+    },
+	"ks-IN": {
+       "name": "جیوپے",
+      "description": "Kashmiri layout"
+    },
+    "ml-IN": {
+       "name": "ജിഒപേ",
+      "description": "Malayalam layout"
+    },
+    "mr-IN": {
+       "name": "जिओपे",
+      "description": "Marathi layout"
+    },
+    "ne-IN": {
+       "name": "जियोपे",
+      "description": "Nepali layout"
+    },
+    "or-IN": {
+       "name": "ଜିଓପେ",
+      "description": "Oriya layout"
+    },
+    "pa-IN": {
+       "name": "ਜੀਓਪੇ",
+      "description": "Punjabi layout"
+    },
+    "sa-IN": {
+       "name": "जिओपे",
+      "description": "Sanskrit layout"
+    },
+    "sd-IN": {
+       "name": "जीवुपी",
+      "description": "Sindhi layout"
+    },
+    "ta-IN": {
+       "name": "ஜியோபே",
+      "description": "Tamil layout"
+    },
+    "te-IN": {
+       "name": "జియోపే",
+      "description": "Telegu layout"
+    },
+    "und-bod": {
+       "name": "जिअ'प्ले",
+      "description": "Bodo layout"
+    },
+    "mai-IN": {
+       "name": "जिओपे",
+      "description": "Maithili layout"
+    },
+     "kok-IN": {
+       "name": "जिओपे",
+      "description": "Konkani layout"
+    },
+    "mni-IN": {
+        "name": "জিওপে",
+      "description": "Manipuri layout"
+    },
+	"doi-IN": {
+        "name": "जिओपे",
+      "description": "Dogri layout"
+    },
+    "ur-IN": {
+       "name": "جیوپے",
+      "description": "Urdu layout"
+    },
+    "sa-IN": {
+      "name": "ᱡᱤᱭᱳᱯᱞᱮ",
+      "description": "Santhili layout"
+     }  
+  }
+}

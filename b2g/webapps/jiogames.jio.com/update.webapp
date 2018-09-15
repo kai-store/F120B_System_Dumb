@@ -1,0 +1,98 @@
+{
+  "name": "JioGames",
+  "description": "Have fun by playing the exciting games",
+  "display":"JioGames",	
+  "subtitle":"Have fun playing exciting games!",
+  "theme":"#63b208",
+  "launch_path": "/index.html",
+  "icons": {
+    "56": "/icons/icon56x56.png",	
+    "84": "/icons/icon84x84.png"
+  },
+  "type": "privileged",
+  "permissions": {
+	"themeable":{"name": "themeable"},
+	"systemXHR": { "description": "This permission is require to call web api" },
+	"device-storage:apps":{ "name": "device-storage","access": "readwrite" },
+	"device-storage:sdcard":{ "name": "device-storage:sdcard","access": "readwrite" },
+	"persistent-storage":{},
+	"webapps-manage":{ },
+	"browser": { }
+  },
+  "developer": {
+    "name": "Jio",
+    "url": "http://www.jio.com"
+  },
+  "fullscreen": true,		
+  "origin":"app://jiogames.jio.com",
+  "version": "1.1.2.1",
+  "default_locale": "en-US",
+  "locales": {
+	"en-US": {
+      "name": "JioGames"
+    },
+	"hi-IN": {
+      "name": "जिओगेम्स "
+    },
+    "as-IN": {
+       "name": "জিঅ’গেম্চ"
+    },
+    "bn-IN": {
+       "name": "জিওগেম্স "
+    },
+    "gu-IN": {
+      "name": "જીઓગેઇમ્સ "
+    },
+    "kn-IN": {
+       "name": "ಜಿಯೋಗೇಮ್ಸ್"
+    },
+	"ks-IN": {
+       "name": "جیوگیم"
+    },
+    "ml-IN": {
+       "name": "ജിഒഗെയിംസ് "
+    },
+    "mr-IN": {
+       "name": "जिओगेम्स"
+    },
+    "ne-IN": {
+       "name": "जियोगेम्स"
+    },
+    "or-IN": {
+       "name": "ଜିଓଗେମ୍‌ସ୍"
+    },
+    "pa-IN": {
+       "name": "ਜੀਓਗੇਮਸ "
+    },
+    "sa-IN": {
+       "name": "जिओगेम्स"
+    },
+    "sd-IN": {
+       "name": "जीवुगेम्ज़"
+    },
+    "ta-IN": {
+       "name": "ஜியோகேம்ஸ்"
+    },
+    "te-IN": {
+       "name": "జియోగేమ్స్"
+    },
+    "und-bod": {
+       "name": "जिअ'गेम्स"
+    },
+    "mai-IN": {
+       "name": "जिओगेम्स"
+    },
+     "kok-IN": {
+       "name": "जिओगेम्स"
+    },
+    "mni-IN": {
+        "name": "জিওগেমস"
+    },
+	"doi-IN": {
+        "name": "जिओगेम्स"
+    },
+    "ur-IN": {
+       "name": "جیوگیمز"
+    }
+  }
+}

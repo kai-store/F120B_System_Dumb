@@ -1,0 +1,165 @@
+{
+  "version": "1.1.37.1",
+  "name": "JioChat",
+  "description": "JioChat lets you stay in touch with your friends and family members. You can send text messages, images, videos and contacts on it",
+  "subtitle":"Stay connected with your friends and family",
+  "launch_path": "/index.html",
+  "icons": {
+    "56": "/icons/56x56_chat.png",
+    "84": "/icons/84x84_chat.png"
+  },
+  "display" : "JioChat",
+  "developer": {
+    "name": "JioChat",
+    "url": "http://www.jiochat.com"
+  },
+  "type": "privileged",
+  "origin": "app://jiomessaging.jio.com",
+  "csp": "default-src *; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src * data:",
+  "theme": "#0F546A",
+  "short_name": "JioChat",
+  "datastores-access": {
+    "jio_service_store": {
+      "access": "readonly",
+      "description":"Jio Service store"
+    }
+  },
+  "permissions": {
+    "themeable": {},
+    "serviceworker": {},
+    "webapps-manage":{},
+    "browser": {},    
+    "cross-domain-content": ["https://www.google-analytics.com/","https://preprod.rsocial.net:9000/", "http://api.ril.com/", "https://api.ril.com/", "http://jiochat.com/condition/eula.html","http://explore.jiochat.com", "https://nav.jiobuzz.com"],
+    "systemXHR": {
+      "description": "Required to load remote content"
+    },
+    "device-storage:apps": {
+      "access": "readwrite",
+      "description": "This is required to store files." 
+    },
+    "device-storage:sdcard": { 
+      "access": "readwrite", 
+      "description": "This is required to store files."
+    },
+    "persistent-storage":{},
+    "contacts": {
+      "description": "Required for autocompletion in the share screen",
+      "access": "readwrite"
+    },
+    "audio-channel-normal" : {
+      "description" : "Needed to play this app's audio content on the normal channel"
+    },
+    "audio-channel-content" : {
+      "description" : "Needed to play this app's audio content on the normal channel"
+    },
+    "audio-capture": {
+        "description": "Required to capture audio via getUserMedia"
+    },
+    "audio-channel-telephony":{
+        "description": "Phone calls, VoIP calls."
+    },
+    "audio-channel-alarm": {
+        "description": "audio channel alarm"
+    },
+      "audio-channel-notification": {
+        "description": "audio channel notification"
+    },
+    "video-capture": {
+        "description": "Required to capture video via getUserMedia"
+    },
+    "desktop-notification" : {
+        "description" : "Needed to fire system notifications"
+     },
+     "mobileconnection": {
+        "description": "Required for handle mobile connection"
+     },
+     "telephony": {
+        "description": "Required to control telephony functions"
+      },
+     "camera": {
+          "description": "Required for accessing cameras on the device."
+      },
+     "power": {
+          "description": ""
+      },
+      "sms": {
+          "description": "Required to send/receive SMSs"
+      }
+  },
+   "messages": [
+    { "sms-received": "/index.html" },
+    { "notification": "/index.html" },
+    {"serviceworker-notification": "/index.html"}
+ ],
+ "default_locale": "en-US",
+ "locales": {
+    "en-US": {
+      "name": "JioChat",
+      "description": "JioChat lets you stay in touch with your friends and family members. You can send text messages, images, videos and contacts on it",
+      "subtitle": "Stay connected with your friends and family"            
+    },
+    "hi-IN": {
+      "name": "जिओचैट"
+    },
+    "as-IN": {
+      "name": "জিঅ’চ্যাট"
+    },
+    "bn-IN": {
+       "name": "জিওচ্যাট"
+    },
+    "gu-IN": {
+      "name": "જીઓચેટ"
+    },
+    "kn-IN": {
+       "name": "ಜಿಯೋಚಾಟ್"
+    },
+    "ks-IN": {
+      "name": "JioChat"
+    },
+    "ml-IN": {
+       "name": "ജിഒചാറ്റ്"
+    },
+    "mr-IN": {
+       "name": "जिओचॅट"
+    },
+    "ne-IN": {
+       "name": "JioChat"
+    },
+    "or-IN": {
+       "name": "ଜିଓଚ୍ୟାଟ୍"
+    },
+    "pa-IN": {
+       "name": "ਜੀਓਚੈਟ"
+    },
+    "sa-IN": {
+       "name": "JioChat"
+    },
+    "sd-IN": {
+       "name": "JioChat"
+    },
+    "ta-IN": {
+       "name": "ஜியோசாட்"
+    },
+    "te-IN": {
+       "name": "జియోచాట్"
+    },
+    "und-bod": {
+      "name": "JioChat"
+    },
+    "mai-IN": {
+      "name": "JioChat"
+    },
+    "kok-IN": {
+      "name": "JioChat"
+    },
+    "mni-IN": {
+      "name": "JioChat"
+    },
+    "doi-IN": {
+      "name": "JioChat"
+    },
+    "ur-IN": {
+       "name": "JioChat"
+    }
+  }
+}

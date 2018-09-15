@@ -1,0 +1,161 @@
+{
+
+	"name": "JioCinema",
+	"version": "1.1.0",
+	"defualt_locale": "en-US",
+	"display": "JioCinema",
+	"theme": "#e7266d",
+	"subtitle": "One stop destination for Premium Movies, TV & Music",
+	"origin": "app://jiocinema.jio.com",
+	"locales": {
+		"en-US": {
+			"name": "JioCinema", 
+			"description" : "JioCinema is an ondemand video library from Reliance Jio Infocomm Ltd. We have over 1 lakh+ hours of exciting content: movies, TV Shows, music, videos, clips, trailers for our viewers.",
+			"subtitle": "One stop destination for Premium Movies, TV & Music"
+		},
+		"hi-IN": {
+			"name": "जिओसिनेमा"
+		},
+		"gu-IN": {
+			"name": "જિઓસિનેમા"
+		},
+		"mr-IN": {
+			"name": "जिओसिनेमा"
+		},
+		"bn-IN": {
+			"name": " জিওটি.ভি "
+		},
+		"pa-IN": {
+			"name": "ਜੀਓਸਿਨੇਮਾ"
+		},
+		"kn-IN": {
+			"name": "ಜಿಯೋಸಿನಿಮಾ"
+		},
+		"ta-IN": {
+			"name": "ஜியோசினிமா"
+		},
+		"te-IN": {
+			"name": "జియోసినిమా"
+		},
+		"ml-IN": {
+			"name": "ജിഒസിനിമ"
+		},
+		"as-IN": {
+			"name": "জিঅ’চিনেমা"
+		},
+		"or-IN": {
+			"name": "ଜିଓସିନେମା"
+		},
+		"doi-IN": {
+			"name": "जिओसिनेमा"
+		},
+		"kok-IN": {
+			"name": "जिओसिनेमा"
+		},
+		"sat-IN": {
+			"name": "ᱡᱤᱭᱳᱥᱮᱱᱮᱢᱟ"
+		},
+		"sa-IN": {
+			"name": "जिओसिनेमा"
+		},
+		"sd-IN": {
+			"name": "जीवुसिनेमा"
+		},
+		"mai-IN": {
+			"name": "जिओसिनेमा"
+		},
+		"mni-IN": {
+			"name": "জিওসিনেমা"
+		},
+		"und-bod": {
+			"name": "जिअ'सिनेमा"
+		},
+		"ne-IN": {
+			"name": "जियोसिनेमा"
+		},
+		"ur-IN": {
+			"name": "جیوسینیما"
+		},
+		"ks-IN": {
+			"name": "جیوسینما"
+		}
+	},
+
+	"datastores-access": {
+		"jio_service_store": {
+			"access": "readonly",
+			"description": "Jio Service store"
+		}
+	},
+
+	"developer": {
+		"name": "Jio Media",
+		"url": "http://jio.com"
+	},
+
+	"description": "JioCinema is an ondemand video library from Reliance Jio Infocomm Ltd. We have over 1 lakh+ hours of exciting content: movies, TV Shows, music, videos, clips, trailers for our viewers. Enjoy and browse through Hindi, English, Tamil, Kannada, Marathi, Telugu, Bengali, Gujarati, Bhojpuri, Malayalam,Punjabi & dubbed content. Downloadnow",
+
+	"launch_path": "/dist/index.html",
+	"icons": {
+		"56": "/resources/icon56x56.png",
+		"84": "/resources/icon84x84.png"
+	},
+	"type": "privileged",
+	"fullscreen": true,
+	"permissions": {
+		"themeable": {
+			"name": "themeable"
+		},
+		"systemXHR": {
+			"description": "This permission is require to call web api"
+		},
+		"device-storage:apps": {
+			"name": "device-storage",
+			"access": "readwrite"
+		},
+		"device-storage:sdcard": {
+			"name": "device-storage:sdcard",
+			"access": "readwrite"
+		},
+		"persistent-storage": {},
+		"webapps-manage": {},
+		"audio-capture": {},
+		"audio-channel-content": {},
+		"browser": {},
+		"udp-socket": {
+			"description": "Used for ssdp implementation."
+		},
+		"tcp-socket": {
+			"description": "Create TCP sockets and communicate over them."
+		},
+		"volumemanager": {},
+		"donglemanager": {
+			"description": "Used for the local IP address."
+		},
+		"geolocation": {
+			"description": "Obtain geolocation from the device GPS."
+		}
+	},
+	"activities": {
+		"JioCinema": {
+			"href": "/dist/index.html",
+			"disposition": "inline",
+			"filters": {
+				"type": "video"
+			}
+		},
+		"JioCinemaVoice": {
+			"filters": {
+				"type": "text/plain",
+				"contentId": "",
+				"contentType": "",
+				"contentDuration": "",
+				"store": "voice"
+			},
+			"href": "/dist/index.html",
+			"disposition": "window",
+			"returnValue": true
+		}
+	}
+
+}

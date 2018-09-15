@@ -1,0 +1,173 @@
+{
+  "version": "1.3.30",
+  "name": "JioVideoCall",
+  "description": "JioVideoCall lets you do video calls to your friends and family members on a click of a button. The app is available in all major Indian languages.",
+  "subtitle":"Stay connected with your friends and family",
+  "launch_path": "/index.html",
+  "icons": {
+    "56": "/icons/56x56_video.png",
+    "84": "/icons/84x84_video.png"
+  },
+  "developer": {
+    "name": "JioVideoCall",
+    "url": "http://www.jiochat.com"
+  },
+  "fullscreen": false,
+  "type": "privileged",
+  "origin": "app://jiovideocall.jio.com",
+  "csp": "default-src *; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src * data:",
+  "theme": "#0F0D64",
+  "short_name": "JioVideocall",
+  "datastores-access": {
+    "jio_service_store": {
+      "access": "readonly",
+      "description":"Jio Service store"
+    }
+  },
+  "permissions": {
+    "themeable": {},
+    "serviceworker": {},
+    "desktop-notification": {},
+    "moz-attention": {},
+    "webapps-manage":{},
+    "browser": {},    
+    "cross-domain-content": ["https://www.google-analytics.com/","https://preprod.rsocial.net:9000/", "http://divumapps.com/", "http://api.ril.com/", "https://api.ril.com/", "http://jiochat.com/condition/eula.html","http://explore.jiochat.com", "https://nav.jiobuzz.com"],
+    "systemXHR": {
+      "description": "Required to load remote content"
+    },
+    "device-storage:apps": {
+      "access": "readwrite",
+      "description": "This is required to store files." 
+    },
+    "device-storage:sdcard": { 
+      "access": "readwrite", 
+      "description": "This is required to store files."
+    },
+    "persistent-storage":{},
+    "contacts": {
+      "description": "Required for autocompletion in the share screen",
+      "access": "readwrite"
+    },
+    "audio-channel-normal" : {
+      "description" : "Needed to play this app's audio content on the normal channel"
+    },
+    "audio-channel-content" : {
+      "description" : "Needed to play this app's audio content on the normal channel"
+    },
+    "audio-capture": {
+        "description": "Required to capture audio via getUserMedia"
+    },
+    "audio-channel-telephony":{
+        "description": "Phone calls, VoIP calls."
+    },
+    "audio-channel-alarm": {
+       "description": "audio channel alarm"
+    },
+    "audio-channel-notification": {
+       "description": "audio channel notification"
+    },
+    "video-capture": {
+        "description": "Required to capture video via getUserMedia"
+    },
+     "mobileconnection": {
+        "description": "Required for handle mobile connection"
+     },
+     "telephony": {
+        "description": "Required to control telephony functions"
+      },
+     "camera": {
+          "description": "Required for accessing cameras on the device."
+      },
+     "power": {
+          "description": ""
+      },
+      "sms": {
+          "description": "Required to send/receive SMSs"
+      },
+      "volumemanager":{
+      },
+      "geolocation": {
+        "description": "Obtain geolocation from the device GPS."
+      }
+  },
+   "messages": [
+    { "sms-received": "/index.html" },
+    { "notification": "/index.html" },
+    {"serviceworker-notification": "/index.html"}
+ ],
+ "default_locale": "en-US",
+ "locales": {
+    "en-US": {
+      "name": "JioVideoCall",
+	  "description": "JioVideoCall lets you do video calls to your friends and family members on a click of a button. The app is available in all major Indian languages.",
+	  "subtitle": "Stay connected with your friends and family"
+    },
+    "hi-IN": {
+      "name": "जिओवीडियोकॉल"
+    },
+	"as-IN": {
+      "name": "জিঅ’ ভিডিঅ’কল"
+    },
+    "bn-IN": {
+       "name": "জিও ভিডিওকল"
+    },
+    "gu-IN": {
+      "name": "જીઓ વિડ્યો કોલ"
+    },
+    "kn-IN": {
+       "name": "ಜಿಯೋ ವೀಡಿಯೋಕಾಲ್"
+    },
+	"ks-IN": {
+      "name": "JioVideoCall"
+    },
+    "ml-IN": {
+       "name": "ജിഒ വീഡിയോകോൾ"
+    },
+    "mr-IN": {
+       "name": "जिओ व्हिडिओकॉल"
+    },
+    "ne-IN": {
+       "name": "JioVideoCall"
+    },
+    "or-IN": {
+       "name": "ଜିଓ ଭିଡିଓକଲ୍"
+    },
+    "pa-IN": {
+       "name": "ਜੀਓ ਵੀਡੀਓ ਕਾਲ"
+    },
+    "sa-IN": {
+       "name": "JioVideoCall"
+    },
+    "sd-IN": {
+       "name": "JioVideoCall"
+    },
+    "ta-IN": {
+       "name": "ஜியோ வீடியோகால்"
+    },
+    "te-IN": {
+       "name": "జియో వీడియోకాల్"
+    },
+    "und-bod": {
+      "name": "JioVideoCall"
+    },
+    "mai-IN": {
+      "name": "JioVideoCall"
+    },
+     "kok-IN": {
+      "name": "JioVideoCall"
+    },
+    "mni-IN": {
+      "name": "JioVideoCall"
+    },
+	"doi-IN": {
+      "name": "JioVideoCall"
+    },
+    "ur-IN": {
+       "name": "JioVideoCall"
+    }
+  },
+  "installs_allowed_from": [
+    "*"
+  ],
+  "display": "JioVideoCall"
+}

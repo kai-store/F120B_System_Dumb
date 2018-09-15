@@ -1,0 +1,58 @@
+{
+  "version": "2.2.1",
+  "name": "Assistant",
+  "description": "The Google Assistant for Jio allows you to quickly access your Google Assistant from the JioPhone’s main menu. Check if you need to take an umbrella when you leave home, make calls hands free during your commute, and unwind by playing your favorite tunes. You personal Google is here to help. Ask questions and get things done. Use it anytime, anywhere.",
+  "subtitle": "Meet your Google Assistant. Ask it questions. Tell it to do things. It’s your own personal Google, always ready to help.",
+  "launch_path": "/index.html",
+  "icons": {
+    "56": "/assets/icons/icon_56.png",
+    "84": "/assets/icons/icon_84.png"
+  },
+  "developer": {
+    "name": "Google Inc.",
+    "url": "http://google.com"
+  },
+  "theme": "#4285F4",
+  "display": "Google Assistant",
+  "type": "certified",
+  "origin": "app://assistant.google.com",
+  "permissions": {
+    "audio-capture": {},
+    "audio-channel-content": {},
+    "contacts": {
+      "access": "readwrite",
+      "description": "Required for contact viewer app"
+    },
+    "geolocation": {},
+    "settings": {
+      "access": "readwrite",
+      "description": "Required for device setting"
+    },
+    "sms": {},
+    "systemXHR": {},
+    "telephony": {},
+    "webapps-manage": {}
+  },
+  "installs_allowed_from": [
+    "app://kaios-plus.kaiostech.com"
+  ],
+  "locales": {
+    "en-US": {
+      "name": "Assistant",
+      "description": "The Google Assistant for Jio allows you to quickly access your Google Assistant from the JioPhone’s main menu. Check if you need to take an umbrella when you leave home, make calls hands free during your commute, and unwind by playing your favorite tunes. You personal Google is here to help. Ask questions and get things done. Use it anytime, anywhere.",
+      "subtitle": "Meet your Google Assistant. Ask it questions. Tell it to do things. It’s your own personal Google, always ready to help."
+    },
+    "gu-IN": {
+      "name": "Assistant",
+	  "description": "The Google Assistant for Jio allows you to quickly access your Google Assistant from the JioPhone’s main menu. Check if you need to take an umbrella when you leave home, make calls hands free during your commute, and unwind by playing your favorite tunes. You personal Google is here to help. Ask questions and get things done. Use it anytime, anywhere.",
+      "subtitle": "अपने गूगल सहायक से मिलें सवाल पूछिए इसे बातें करने के लिए कहो यह आपकी खुद की व्यक्तिगत गूगल है, हमेशा मदद के लिए तैयार है"
+    },
+    "hi-IN": {
+      "name": "Assistant",
+	  "description": "The Google Assistant for Jio allows you to quickly access your Google Assistant from the JioPhone’s main menu. Check if you need to take an umbrella when you leave home, make calls hands free during your commute, and unwind by playing your favorite tunes. You personal Google is here to help. Ask questions and get things done. Use it anytime, anywhere.",
+      "subtitle": "अपने गूगल सहायक से मिलें सवाल पूछिए इसे बातें करने के लिए कहो यह आपकी खुद की व्यक्तिगत गूगल है, हमेशा मदद के लिए तैयार है"
+    }
+  },
+  "default_locale": "en-US",
+  "fullscreen": true
+}

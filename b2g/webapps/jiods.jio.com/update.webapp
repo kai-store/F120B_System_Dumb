@@ -1,0 +1,35 @@
+{
+  "name": "JioDS",
+  "version": "1.2.0.0",
+  "description": "This app helps to Improve phone and network performance.",
+  "display":"LYF Privacy Notice",
+  "subtitle":"Privacy Notice",
+  "theme":"#0000A8",
+  "launch_path": "/index.html",
+  "origin": "app://jiods.jio.com",
+  "type" : "privileged",
+  "icons": {
+    "56": "/icons/56x56.png",
+    "84": "/icons/84x84.png" 
+  },
+  "developer": {
+    "name": "Jio",
+    "url": "http://www.jio.com"
+  },
+  "fullscreen": true,
+  "enabled": false,
+  "role": "system",
+  "datastores-owned": {
+  "JioDSstore": {
+    "access": "readwrite",
+    "description": "my data store"
+   }
+  },
+  "default_locale": "en-US",
+  "locales": {
+    "en-US": {
+      "name": "LYF Privacy Notice",
+      "description": "Improve phone and network performance."
+    }
+  }
+}

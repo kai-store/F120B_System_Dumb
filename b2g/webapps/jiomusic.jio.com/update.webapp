@@ -1,0 +1,146 @@
+{
+  "name": "JioMusic",
+  "version": "1.0.0.1",
+  "theme_color": "#04c3a2",
+  "origin": "app://jiomusic.jio.com",
+  "locales": {
+    "en-US": {
+      "name": "JioMusic",
+      "description": "English layout"
+    },
+    "hi-IN": {
+      "name": "जिओम्यूजिक",
+      "description": "Hindi layout"
+     },
+	  "gu-IN": {
+      "name": "જીઓમ્યુઝીક",
+      "description": "Gujarati layout"
+     },
+	 "mr-IN": {
+      "name": "जिओम्युजिक",
+      "description": "Marathi layout"
+     },
+	 "bn-IN": {
+      "name": "জিওমিউজিক",
+      "description": "Bangala layout"
+     },
+    "as-IN": {
+          "name": "জিঅ’মিউজিক",
+          "description": "Assamese layout"
+    },
+    "doi-IN": {
+        "name": "जिओम्यूजिक",
+        "description": "Dogri layout"
+    },
+    "kn-IN": {
+        "name": "ಜಿಯೋಮ್ಯೂಸಿಕ್",
+        "description": "Kannada layout"
+    },
+    "ks-IN": {
+        "name": "جیومیوزِک",
+        "description": "Kashmiri layout"
+    },
+    "ur-IN": {
+        "name": "جیومیوزک",
+        "description": "Urdu layout"
+    },
+    "kok-IN": {
+        "name": "जिओम्यूजिक",
+        "description": "Konkani layout"
+    },
+    "mai-IN": {
+        "name": "जिओम्यूजिक",
+        "description": "Maithili layout"
+    },
+    "ml-IN": {
+        "name": "ജിഒമ്യൂസിക്‌",
+        "description": "Malyalam layout"
+    },
+    "mni-IN": {
+        "name": "জিওম্যুজিক",
+       "description": "Manipuri layout"
+    },
+    "ne-IN": {
+        "name": "जियोम्युजिक",
+        "description": "Nepali layout"
+    },
+    "or-IN": {
+        "name": "ଜିଓମ୍ୟୁଜିକ୍",
+       "description": "Oriya layout"
+    },
+    "pa-IN": {
+        "name": "ਕੈਲੰਡਰ",
+        "description": "Punjabi layout"
+    },
+    "sa-IN": {
+        "name": "जिओम्यूजिक",
+       "description": "Sanskrit layout"
+    },
+    "sat-IN": {
+        "name": "ᱡᱤᱭᱳᱢᱩᱡᱤᱠ",
+        "description": "Santali layout"
+    },
+    "sd-IN": {
+        "name": "जीवुम्यूज़िक",
+       "description": "Sindhi layout"
+    },
+    "ta-IN": {
+        "name": "ஜியோமியூசிக்",
+        "description": "Tamil layout"
+    },
+    "te-IN": {
+        "name": "జియోమ్యూజిక్",
+        "description": "Telegu layout"
+    },
+    "und-bod": {
+        "name": "जिअ'मिउजिक",
+        "description": "Bodo layout"
+    }
+  },
+  "default_locale": "en-US",
+  "developer": {
+    "name": "Jio Media Team",
+    "url": "http://jio.com"
+  },
+  "display": "JioMusic",
+  "subtitle": "Music for you. Anytime. Anywhere.",
+  "description": "Millions of HD songs in over 20 languages. Unmatched clarity. Unbeatable experience.",
+  "launch_path": "/dist/index.html",
+  "icons": {
+    "56": "/resources/icon56x56.png",
+    "84": "/resources/icon84x84.png"
+  },
+  "type": "privileged",
+  "permissions": {
+    "device-storage:apps": {
+      "name": "device-storage",
+      "access": "readwrite"
+    },
+    "device-storage:sdcard": {
+      "name": "device-storage:sdcard",
+      "access": "readwrite"
+    },
+    "persistent-storage": {},
+    "audio-channel-content": {},
+    "systemXHR": {},
+    "volumemanager": {}
+  },
+  "activities": {
+    "JioMusic": {
+      "href": "/dist/index.html",
+      "disposition": "inline",
+      "filters": {
+        "type": "audio"
+      }
+    },
+    "JioMusicVoice": {
+      "filters": {
+        "type": "text/plain",
+        "contentId": ""
+      },
+      "href": "/dist/index.html",
+      "disposition": "window",
+      "returnValue": true
+    }
+  }
+}
